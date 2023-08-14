@@ -1,0 +1,17 @@
+{
+  "discord": {
+    "token": "",
+    "forward_targets": [
+      {
+        "guild_id": 0,
+        "channel_id": 0
+      }
+    ]
+  },
+  "misskey": [
+    {
+      "host_url": "",
+      "token": ""
+    }
+  ]
+}
