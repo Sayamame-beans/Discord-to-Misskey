@@ -5,7 +5,8 @@ from d2m_misskey_dataclass import *
 from d2m_exception import MisskeyApiError
 
 class d2mMisskey:
-    def __init__(self, host: str = "https://localhost", token: str = "") -> None:
+    def __init__(self, host: str = "", token: str = "") -> None:
+        host = "https://localhost" if not host else host
         self.host = host[:-1] if host[-1] == '/' else host
         self.token = token
 
